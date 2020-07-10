@@ -1,6 +1,7 @@
 # All Eyes On You - HackNY '20
 
 ## Instructions 
+* Game hosted here: [https://youth-justice-board.github.io/AllEyesOnUs/](https://youth-justice-board.github.io/AllEyesOnUs/)
 * Run this command to build everything properly: `tweego -f sugarcube-2 -o aeou.html yjb-game`
 * To deploy this game, simply make a commit & push to master!
 
