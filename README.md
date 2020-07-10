@@ -2,6 +2,7 @@
 
 ## Instructions 
 * Run this command to build everything properly: `tweego -f sugarcube-2 -o aeou.html yjb-game`
+* To deploy this game, simply make a commit & push to master!
 
 ## Explanation of Refactoring :)
 Within the `yib-game` directory:
