@@ -210,7 +210,6 @@ body {
 
 .passage>.passage-userstats {
     background-color: var(--secondary-color);
-    padding: 1rem;
 }
 
 .passage a {
@@ -258,7 +257,7 @@ body {
 }
 
 #ui-bar.stowed {
-    left: -89%;
+    left: -87%;
 }
 
 #ui-bar-toggle {
@@ -286,6 +285,7 @@ body {
 
 
 .passage {
+    font-size: 13px;
     width: auto;
     padding: 1rem;
     white-space: pre-wrap;
@@ -321,9 +321,15 @@ body {
 }
 
 .passage>.passage-userstats {
-    padding: 0.5rem;
+    padding: 1rem;
+    text-align: center;
 }
 
+@media screen and (min-width: 630px) {
+    #ui-bar.stowed {
+        left: -89%;
+    }
+}
 
 /* Large screen breakpoint */
 @media screen and (min-width: 800px) {
