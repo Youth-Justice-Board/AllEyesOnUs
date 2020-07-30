@@ -262,6 +262,10 @@ body {
         width: 21rem;
     }
 
+    #ui-bar.stowed {
+        left: -18rem;
+    }
+
     #ui-bar-toggle {
         right: 0;
         left: 75%;
